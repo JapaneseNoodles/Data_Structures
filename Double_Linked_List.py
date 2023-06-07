@@ -43,17 +43,3 @@ class Double:
             current = current.next
 
         return list_print
-
-
-names = ['Ashley', 'Connor', 'Teagan']
-
-lists = Double()
-
-for x in names:
-    lists.new(x)
-
-print(lists.print())
-
-lists.pre_new('Stephen')
-
-print(lists.print())
